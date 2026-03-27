@@ -5,7 +5,8 @@ Python project focused on web scraping and data analysis of apartment listings f
 ## Project background
 The goal of this project was to collect current apartment listings from Sreality.cz and prepare the data for further analysis.
 
-## Project tasks
+## Project workflow
+
 ### 1. Web scraping
 Using `BeautifulSoup`, the project collects apartment listing data, including:
 - apartment URL
@@ -22,29 +23,41 @@ The scraped data is cleaned and transformed to:
 - export cleaned data to CSV
 
 ### 3. Data analysis
-The cleaned CSV file is loaded back into a dataframe and used for further analysis of apartment listings in Zlín.
+The cleaned CSV file is loaded into a dataframe and analyzed to answer business and market-related questions about apartment listings in Zlín.
+
+## Analytical questions
+- What is the average apartment price in Zlín?
+- What is the average apartment price for each apartment layout (for example 1+1, 2+1, 2+kk)?
+- What is the average apartment size in square meters for each layout?
+- Are there streets with a higher concentration of more expensive apartments?
+- Which apartment layout is advertised most frequently in the city, and why might that be the case?
+- How can this assumption be supported with data?
+- Are there listings with a price above 20,000 CZK? If yes, do these listings also include smaller apartments with a maximum of two rooms (such as 2+1 or 2+kk)?
+- What are the minimum and maximum listed prices for each apartment layout?
+- Which apartment layout has the largest price range between the minimum and maximum listing price?
 
 ## Tools used
 - Python
 - Jupyter Notebook
 - BeautifulSoup
 - pandas
-
-## Files in this repository
-- `sreality_zlin_analysis.ipynb` – full notebook with scraping, cleaning, and analysis
-- `analysis.py` – cleaned Python script version of the core workflow
-- `yourname_zdrojova_data.csv` – cleaned dataset
-- `project_brief_cz.md` or `project_brief.pdf` – project assignment in Czech
+- matplotlib
+- seaborn
 
 ## Skills demonstrated
-- web scraping
+- web scraping with BeautifulSoup
 - HTML parsing
-- data cleaning
+- data extraction from web listings
+- data cleaning and preprocessing
 - ETL workflow
-- working with missing values
-- CSV export
-- dataframe analysis
-- Python data analysis
+- handling missing values and data types
+- splitting and standardizing location fields
+- exporting cleaned data to CSV
+- exploratory data analysis in Python
+- grouping and aggregation in pandas
+- price and apartment layout analysis
+- basic data visualization
+- deriving insights from external market data
 
 ## Business value
 This project demonstrates how to collect and prepare external market data for analysis. Similar workflows can be used in market research, pricing analysis, competitive monitoring, or real estate analytics.
