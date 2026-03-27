@@ -61,3 +61,16 @@ The cleaned CSV file is loaded into a dataframe and analyzed to answer business 
 
 ## Business value
 This project demonstrates how to collect and prepare external market data for analysis. Similar workflows can be used in market research, pricing analysis, competitive monitoring, or real estate analytics.
+
+## Files in this repository
+
+- `README.md` – project overview, workflow, analytical questions, and key skills demonstrated
+- `analysis.py` – cleaned Python script with the core analytical workflow
+- `sreality_zlin_analysis.ipynb` – full notebook version containing web scraping, data cleaning, and analysis
+- `final_report_EN.pdf` – final report in English
+- `data/source_data.csv` – cleaned source dataset used for the analysis
+- `docs/project_brief_cz.md` – project brief in Czech
+- `docs/project_brief_eng.md` – project brief in English
+- `outputs/data_export.xlsx` – exported analytical output
+- `outputs/final_report_CZ.pdf` – final report in Czech
+- `outputs/final_report_EN.pdf` – final report in English
