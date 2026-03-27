@@ -156,7 +156,7 @@ for byt in list_inzeratu_filtered:
 # DATA PROCESING
 import pandas as pd
 
-df = pd.read_csv('byty_zlin.csv') # zdroj/source name on github 'pavla_sindlerova_zdrojova_data.csv'
+df = pd.read_csv('byty_zlin.csv') # name on github is 'source_data.csv'
 
 df.head()
 df.info()
