@@ -65,7 +65,8 @@ This project demonstrates how to collect and prepare external market data for an
 ## Files in this repository
 
 - `README.md` – project overview, workflow, analytical questions, and key skills demonstrated
-- `analysis.py` – cleaned Python script with the core analytical workflow
+- `analysis.py` – original Python analysis script
+- `analysis_en.py` – cleaned English version of the analysis script prepared for portfolio presentation
 - `sreality_zlin_analysis.ipynb` – full notebook version containing web scraping, data cleaning, and analysis
 - `final_report_EN.pdf` – final report in English
 - `data/source_data.csv` – cleaned source dataset used for the analysis
@@ -75,5 +76,6 @@ This project demonstrates how to collect and prepare external market data for an
 - `outputs/final_report_CZ.pdf` – final report in Czech
 - `outputs/final_report_EN.pdf` – final report in English
 
+
 ## Note
-The source website and raw data are in Czech, so some scraped values preserve their original Czech wording. Code comments and project documentation are written in English for clarity and portfolio presentation.
+The source website and raw data are in Czech, so some scraped values preserve their original Czech wording. Code comments and project documentation are written in English for portfolio presentation and readability.
