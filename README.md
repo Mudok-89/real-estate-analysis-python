@@ -74,3 +74,6 @@ This project demonstrates how to collect and prepare external market data for an
 - `outputs/data_export.xlsx` – exported analytical output
 - `outputs/final_report_CZ.pdf` – final report in Czech
 - `outputs/final_report_EN.pdf` – final report in English
+
+## Note
+The source website and raw data are in Czech, so some scraped values preserve their original Czech wording. Code comments and project documentation are written in English for clarity and portfolio presentation.
